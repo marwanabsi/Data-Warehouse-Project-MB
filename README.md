@@ -78,27 +78,28 @@ These insights empower stakeholders with real-time visibility into performance m
 
 ---
 
-## 🧰 Repository Structure
+## 💼 Repository Structure
+
 data-warehouse-project/
 │
-├── datasets/ # Raw datasets (ERP & CRM)
+├── datasets/ → Raw datasets (ERP & CRM)
 │
-├── docs/ # Documentation & diagrams
+├── docs/ → Documentation & diagrams
 │ ├── data_architecture.drawio
 │ ├── data_flow.drawio
 │ ├── data_models.drawio
 │ ├── data_catalog.md
 │ └── naming-conventions.md
 │
-├── scripts/ # SQL scripts for ETL & transformations
-│ ├── bronze/ # Raw data ingestion
-│ ├── silver/ # Cleaning & standardization
-│ └── gold/ # Business logic & reporting models
+├── scripts/ → SQL scripts for ETL & transformations
+│ ├── bronze/ → Raw data ingestion
+│ ├── silver/ → Cleaning & standardization
+│ └── gold/ → Business logic & reporting models
 │
-├── tests/ # Quality checks & validation scripts
+├── tests/ → Quality checks & validation scripts
 │
-├── README.md # Project overview
-├── requirements.txt # Dependencies & references
+├── README.md → Project overview
+├── requirements.txt → Dependencies & references
 ├── LICENSE
 └── .gitignore
 
