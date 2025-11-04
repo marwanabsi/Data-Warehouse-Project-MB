@@ -79,7 +79,7 @@ These insights empower stakeholders with real-time visibility into performance m
 ---
 
 ## 🧭 Repository Structure
-
+```
 data-warehouse-project/
 │
 ├── datasets/              → Raw datasets (ERP & CRM)
@@ -101,7 +101,7 @@ data-warehouse-project/
 ├── README.md              → Project overview
 ├── requirements.txt       → Dependencies & references
 ├──
-
+```
 
 ---
 
